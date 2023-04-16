@@ -7,7 +7,7 @@ const mongoose = require("mongoose")
 
 dotenv.config()
 
-const PORT = process.env.PORT | 3000
+const PORT = process.env.PORT || 3000
 
 const conStr = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@user-cluster.vpbstg6.mongodb.net/?retryWrites=true&w=majority`
 // const localStr = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@user-cluster.vpbstg6.mongodb.net/test`
