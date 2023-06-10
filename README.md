@@ -1,5 +1,3 @@
-
-
 # mongo-node-express-app
 
 User REST API
